@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-
+import logo from '../assets/logo.png'
 export default function Landing() {
   const navigate = useNavigate();
 
@@ -15,13 +15,10 @@ export default function Landing() {
         transition={{ duration: 0.8 }}
       >
         <img
-          src="/logo.png"
+          src={logo}
           alt="EcoWaste Logo"
-          className="w-14 h-14 mr-3 drop-shadow-md"
+          className="w-60 h-45 mr-3 drop-shadow-md"
         />
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent">
-          EcoWaste
-        </h1>
       </motion.div>
 
       {/* Icons Row */}
