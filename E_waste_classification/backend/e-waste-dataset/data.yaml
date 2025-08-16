@@ -1,0 +1,20 @@
+# data.yaml
+# This file defines the paths to your dataset and the class names.
+# Adjust the 'path' to the root directory of your dataset.
+path: ../e-waste-dataset # Update this path as needed
+
+train: train/ # Training images are in the 'train' subdirectory
+val: val/ # Validation images are in the 'val' subdirectory
+
+# Class names
+names:
+  0: Battery
+  1: Keyboard
+  2: Microwave
+  3: Mobile
+  4: Mouse
+  5: PCB
+  6: Player
+  7: Printer
+  8: Television
+  9: Washing Machine

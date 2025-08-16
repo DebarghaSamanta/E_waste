@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+Pillow
+ultralytics
+groq
+pinecone
+sentence-transformers
+pypdf
+python-dotenv
+tensorflow
